@@ -1,0 +1,27 @@
+# ============================================================================
+# Python Dependencies for Cloud Storage Project
+# ============================================================================
+# Install these using: pip install -r requirements.txt
+# ============================================================================
+
+# Web Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Firebase Admin SDK (for authentication and database)
+firebase-admin==6.2.0
+
+# Cloudinary SDK (for file storage)
+cloudinary==1.33.0
+
+# HTTP requests (for Firebase REST API)
+requests==2.31.0
+
+# Werkzeug for file handling
+Werkzeug==2.3.7
+
+# Python-dotenv for environment variables
+python-dotenv==1.0.0
+
+# Optional: For production deployment
+gunicorn==21.2.0
